@@ -1,9 +1,11 @@
 /*
 Ritesh Grandhe 
 9/3/25
-- Treat your teachers and classmates with respect.
-- Be safe.
-- Use your class time well.
+1. No global variables. (Global constants are all right.)
+
+2. No strings. Not ever. (You can use cstrings/character arrays, and the cstring and cctype libraries are okay. In fact, I recommend using strcmp and strlen in your projects.)
+
+3. You should include <iostream>, not stdio. (This applies more to C programmers.) Also, use "new" and "delete" instead of "malloc" and "free".
 */
 #include <iostream>
 //I searched up these two imports to know which ones I needed for srand(time(NULL))
