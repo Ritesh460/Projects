@@ -1,7 +1,6 @@
 /*
 Ritesh Grandhe 
 9/3/25
-<<<<<<< HEAD
 1. No global variables. (Global constants are all right.)
 
 2. No strings. Not ever. (You can use cstrings/character arrays, and the cstring and cctype libraries are okay. In fact, I recommend using strcmp and strlen in your projects.)
