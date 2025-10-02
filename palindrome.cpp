@@ -5,12 +5,12 @@ using namespace std;
 
 int main () {
   // created three arrays(one for regular input, one for input without punct or spaces, and one for the reversed word)
-  char word[80];
-  char fresh_word[80];
-  char new_word[80];
+  char word[81];
+  char fresh_word[81];
+  char new_word[81];
   // input and getting the input
   cout << "Give me a word: ";
-  cin.getline(word,80);
+  cin.getline(word,81);
   // boolean statement for if it goes over 80 letters
   bool picking = true;
   // while loop for long words
@@ -18,7 +18,7 @@ int main () {
     if (strlen(word) > 80) {
       cout << "Too long of a word!" << endl;
       cout << "Give me another word: " << endl;
-      cin.getline(word,80);
+      cin.getline(word,81);
     }
     else {
       picking = false;
