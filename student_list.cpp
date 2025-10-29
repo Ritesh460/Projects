@@ -66,8 +66,11 @@ void PRINT(const vector<Student*> &students) {
   }
 }
 //create DELETE function to delete a student id and remove struct from vector
-//void DELETE(vector<Student*> &students);
-//cars.pop_back();
+void DELETE(vector<Student*> &students);
+  int id = 0;
+  cout << "ID to delete: " << endl;
+  cin >> id; 
+  cars.pop_back(id);
 //create QUIT function for quitting program.
 bool QUIT() {
   char positive;
